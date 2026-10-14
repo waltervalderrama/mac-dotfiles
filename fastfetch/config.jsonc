@@ -132,7 +132,7 @@
     "break",
     {
       "type": "custom",
-      "format": "\u001b[90m┌────────────────Age / Uptime / Update───────────────┐"
+      "format": "\u001b[90m┌────────────────Age / Uptime────────────────────────┐"
     },
     {
       "type": "command",
@@ -145,12 +145,12 @@
       "key": "󱫐 Uptime",
       "keyColor": "magenta"
     },
-    {
-      "type": "command",
-      "key": " Update",
-      "keyColor": "magenta",
-      "text": "formulae=$(brew outdated --formula | wc -l | tr -d ' '); casks=$(brew outdated --cask 2>/dev/null | wc -l | tr -d ' '); echo \"brew: $formulae, cask: $casks\""
-    },
+//    {
+//      "type": "command",
+//      "key": " Update",
+//      "keyColor": "magenta",
+//      "text": "formulae=$(brew outdated --formula | wc -l | tr -d ' '); casks=$(brew outdated --cask 2>/dev/null | wc -l | tr -d ' '); echo \"brew: $formulae, cask: $casks\""
+//    },
     {
       "type": "custom",
       "format": "\u001b[90m└────────────────────────────────────────────────────┘"

@@ -1,0 +1,50 @@
+font-family = "Hack Nerd Font Propo"
+font-size = 20
+background-opacity = 0.75
+background-blur = true
+window-height = 30
+window-width = 130
+
+# keybindings
+keybind = cmd+s>r=reload_config
+keybind = cmd+s>x=close_surface
+keybind = cmd+s>n=new_window
+
+# tabs
+keybind = cmd+s>c=new_tab
+keybind = cmd+s>shift+l=next_tab
+keybind = cmd+s>shift+h=previous_tab
+keybind = cmd+s>comma=move_tab:-1
+keybind = cmd+s>period=move_tab:1
+
+# quick tab switch
+keybind = cmd+s>1=goto_tab:1
+#...
+keybind = cmd+s>9=goto_tab:9
+
+# split
+keybind = cmd+s>\=new_split:right
+keybind = cmd+s>-=new_split:down
+keybind = cmd+s>j=goto_split:bottom
+keybind = cmd+s>k=goto_split:top
+keybind = cmd+s>h=goto_split:left
+keybind = cmd+s>l=goto_split:right
+keybind = cmd+s>z=toggle_split_zoom
+keybind = cmd+s>e=equalize_splits
+
+# other
+copy-on-select = clipboard
+theme = catppuccin-macchiato.conf
+macos-icon = official
+auto-update = check
+shell-integration-features = sudo
+
+# Performance tuning
+clipboard-read = allow
+clipboard-write = allow
+mouse-hide-while-typing = true
+
+# Tmux integration
+keybind = cmd+s>s=text:\x01\x73  # Ctrl-a, then 's'
+keybind = cmd+b=text:\x01\x7a    # Ctrl-a, then 'z'
+#scrollback-limit = 400000
