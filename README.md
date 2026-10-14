@@ -20,6 +20,8 @@ The goal is not to provide a huge all-in-one dotfiles framework, but a lightweig
 At the moment, this repo includes:
 
 - `fastfetch/` — `fastfetch` configuration for a macOS-focused system summary
+- `zsh/` — `.zshrc` (oh-my-zsh) and `.p10k.zsh` (Powerlevel10k two-line prompt)
+- `ghostty/` — Ghostty config and Catppuccin themes
 
 More configs may be added over time as the setup grows.
 
